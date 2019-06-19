@@ -1,0 +1,26 @@
+{
+  "name": "ss_watch",
+  "version": "1.0.0",
+  "description": "监控多台服务器的脚本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatcodestack/ss_watch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greatcodestack/ss_watch/issues"
+  },
+  "homepage": "https://github.com/greatcodestack/ss_watch#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "node-fetch": "^2.6.0",
+    "ping": "^0.2.2"
+  }
+}
